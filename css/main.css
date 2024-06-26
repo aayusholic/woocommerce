@@ -1,0 +1,242 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#e5efff, white); /* Gradient background */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.d-flex {
+  align-items: center;
+}
+
+.btn-login,
+.btn-started {
+  margin-left: 10px;
+  /* Placeholder for button color */
+}
+
+.btn-started {
+  background-color: #7854f7;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 4rem 0;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1rem;
+}
+
+.main-heading {
+  font-size: 85px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 29px;
+  line-height: 95px;
+}
+
+.main-subheading {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 31px;
+}
+
+.btn-store {
+  color: white;
+  background-color: #7854f7;
+  border-radius: 60px;
+  margin-right: 12px;
+  padding: 26px 63px 25px 62px;
+}
+.btn-customize {
+  text-decoration: none;
+}
+.customize {
+  color: #b48484;
+}
+.product-display {
+  position: relative;
+  /* background-color: white; */
+  padding: 1rem;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.product-image {
+  width: 453px;
+  height: 422px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.product-info {
+  text-align: center;
+}
+
+.product-image-container {
+  position: relative;
+}
+
+.product-image-girl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; /* This ensures the girl image is on top */
+}
+
+.product-image {
+  z-index: 1; /* This positions the product image behind the girl */
+}
+.sale-badge {
+  position: absolute;
+  top: 0px;
+  right: 100px;
+  background-color: #70c217;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 38px;
+  font-size: 0.875rem;
+  z-index: 3;
+  padding: 10.23px 30.87px 6.23px 32.93px;
+}
+
+.product-image-cart {
+  position: absolute;
+  bottom: -24px;
+}
+
+.size-selection .size-btn {
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #333;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price {
+  margin: 1rem 0;
+}
+
+.current-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.original-price {
+  font-size: 1rem;
+  color: #999;
+}
+
+.payment-options img {
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.btn-add-to-cart {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+/* Caard */
+.container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+h2 {
+  font-size: 36px;
+  color: #272d4e;
+  margin-bottom: 30px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  /* flex-wrap: wrap; */
+}
+.card {
+  background: none;
+  border: none;
+  text-align: left;
+  width: 300px;
+}
+
+.card-payment,
+.card-community,
+.card-customize {
+  width: 536px;
+}
+
+.card-customize {
+  margin-top: 75px;
+}
+.card-community {
+  margin-top: 175px;
+}
+.card-img-top {
+  width: 430px;
+  height: 293px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #272d4e;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #94a2b3;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  font-size: 18px;
+  font-weight: 700;
+  color: #299ef3;
+}
+.container-section-girl {
+  margin-left: 345px;
+  margin-right: 595px;
+}
+
+.btn-document {
+  color: white;
+  padding: 22px 26px;
+  background-color: #70c217;
+  border-radius: 60px;
+}

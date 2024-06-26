@@ -1,0 +1,38 @@
+* {
+  font-family: Roboto;
+}
+.btn-started {
+  background: #7854f7;
+  color: white;
+}
+
+.header-nav-btns {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.btn-content-start {
+  background: #7854f7;
+  color: white;
+  width: 267px;
+  height: 72px;
+  border-radius: 60px;
+}
+
+.main-contxt-heading {
+  font-size: 85px;
+  font-weight: 700px;
+  width: 818px;
+  height: 285px;
+}
+.main-contxt-subheading {
+  font-weight: 400px;
+  color: #94a2b3;
+  font-size: 18px;
+  width: 716px;
+  height: 50px;
+}
+
+.container-girl-section{
+  justify-content: space-between;
+}
